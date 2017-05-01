@@ -81,5 +81,5 @@ Testデータにおいて、MSEの値が途中から上昇する現象が発生�
  　今後の改善点としてグラビアなど芸能界特有の盛る現象とかあると思うので、下着メーカや水着メーカが頑張ってきれいなデータセットを揃えてくれれば、実用の可能性はあるように思えます。
 
 ## 参考
-[1]  
+[1] [ドワンゴ視聴数予想](http://www.itmedia.co.jp/news/articles/1511/04/news114.html)
 [2] [ディープ前処理ツールキット](https://bitbucket.org/nardtree/maeshori-toolkit-for-deeplearning)
