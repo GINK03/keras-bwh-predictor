@@ -105,8 +105,7 @@ $ git clone https://github.com/GINK03/keras-bwh-predictor
   <img width="200px" src="https://cloud.githubusercontent.com/assets/4949982/25574599/db48698a-2e8a-11e7-86a4-4e9cce62cc81.png">
 </p>
 　コードなかに、trainMaxという変数があり、学習に使うデータの最大値を決定しているパラメータがあるので、適宜編集してください。
- 
- 配置が完了したら、学習です。
+　 配置が完了したら、学習です。
  ```sh
  $ python3 deep_bwh.py --train
  ```
@@ -116,17 +115,17 @@ $ git clone https://github.com/GINK03/keras-bwh-predictor
  $ python3 deep_bwh.py --eval
  ```
  
- 任意の画像のbwhを予想します。予想す画像はto_predに入れておいてください
+ 任意の画像のbwhを予想します。予想する画像はto_predに入れておいてください
  ```sh
  $ python3 deep_bwh.py --pred
  ```
 
  
 ## 感想
-　上坂すみれさんのような写真に対して反応するので、大きさはある程度わかっているのかなと言う印象があります。  
- 　今後の改善点としてグラビアなど芸能界特有の盛る現象とかあると思うので、下着メーカや水着メーカが頑張ってきれいなデータセットを揃えてくれれば、実用の可能性はあるように思えます。
-  お店でメジャーで測るんじゃなくて、スマホで自撮りすると、自分のプライベートな値が管理できるようになって、ネットとかで通販ができるようになると良いですね。
+　上坂すみれさんのような写真に対して反応するので、大きさはある程度わかっているのかなと言う印象があります。  
+ 　今後の改善点としてグラビアなど芸能界特有の盛る現象とかあると思うので、下着メーカや水着メーカが頑張ってきれいなデータセットを揃えてくれれば、実用の可能性はあるように思えます。  
+  お店でメジャーで測るんじゃなくて、スマホで自撮りすると、自分のプライベートな値が管理できるようになって、ネットとかで通販ができるようになると良いですね。  
 
 ## 参考
-[1] [ドワンゴ視聴数予想](http://www.itmedia.co.jp/news/articles/1511/04/news114.html)
+[1] [ドワンゴ視聴数予想](http://www.itmedia.co.jp/news/articles/1511/04/news114.html)  
 [2] [ディープ前処理ツールキット](https://bitbucket.org/nardtree/maeshori-toolkit-for-deeplearning)
