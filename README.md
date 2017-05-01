@@ -81,9 +81,51 @@ Testデータにおいて、MSEの値が途中から上昇する現象が発生�
 </p>
 <div align="center"> 図7. 清水あいりさん </div>
 
+## 独自データセットの学習
+　どなたでも環境があれば学習できます。  
+　コードはgithub上で公開しており、再配布は自由ですが商用利用はおやめください。  
+```sh
+$ git clone https://github.com/GINK03/keras-bwh-predictor
+```
+　まず、学習したい対象の画像を縮小します。  
+  ResNetを使う場合は224x224のサイズなのでそのサイズにリサイズして、何もない画像に貼り付けます。  
+<p align="center">
+  <img widht="450px" src="https://cloud.githubusercontent.com/assets/4949982/25574490/dc7c252c-2e89-11e7-9a9e-f210a95adc66.png">
+</p>
+<div align="center"> 図8. 画像を縮小します。 </div>
+
+ そして、特定のディレクトリに、決まった規則の名前で保存してください。（名前がキーとなります）
+<p align="center">
+  <img widht="450px" src="https://cloud.githubusercontent.com/assets/4949982/25574414/28d6f0d8-2e89-11e7-908c-5a87ee2b9753.png">
+</p>
+<div align="center"> 図9. 特定のキーに保存します。 </div>
+
+　bwh.txtファイルを編集して予想したい三つのパラメータを記述します。
+<p align="center">
+  <img width="200px" src="https://cloud.githubusercontent.com/assets/4949982/25574599/db48698a-2e8a-11e7-86a4-4e9cce62cc81.png">
+</p>
+　コードなかに、trainMaxという変数があり、学習に使うデータの最大値を決定しているパラメータがあるので、適宜編集してください。
+ 
+ 配置が完了したら、学習です。
+ ```sh
+ $ python3 deep_bwh.py --train
+ ```
+ 
+ 何回目のepochが良いか、--evalという引数で評価できます。(出力される値が少ないほどよい)
+ ```sh
+ $ python3 deep_bwh.py --eval
+ ```
+ 
+ 任意の画像のbwhを予想します。予想す画像はto_predに入れておいてください
+ ```sh
+ $ python3 deep_bwh.py --pred
+ ```
+
+ 
 ## 感想
-　上坂すみれさんのような写真に対して、反応するので大きさはある程度わかっているのかなと言う印象があります。  
+　上坂すみれさんのような写真に対して反応するので、大きさはある程度わかっているのかなと言う印象があります。  
  　今後の改善点としてグラビアなど芸能界特有の盛る現象とかあると思うので、下着メーカや水着メーカが頑張ってきれいなデータセットを揃えてくれれば、実用の可能性はあるように思えます。
+  お店でメジャーで測るんじゃなくて、スマホで自撮りすると、自分のプライベートな値が管理できるようになって、ネットとかで通販ができるようになると良いですね。
 
 ## 参考
 [1] [ドワンゴ視聴数予想](http://www.itmedia.co.jp/news/articles/1511/04/news114.html)
