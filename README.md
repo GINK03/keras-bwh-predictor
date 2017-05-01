@@ -59,7 +59,7 @@ Testデータにおいて、MSEの値が途中から上昇する現象が発生�
 
 ## 予想してみる
 学習用データセットに含まれていらっしゃらない方で水着でメディアに露出されている方がいます。  
-去年、ドラマで有名になったガッキーや田中麗奈さん、あと上坂すみれさんを予想してみました。
+去年、ドラマで有名になったガッキーや田中麗奈さん、上坂すみれさん、清水あいりさんを予想してみました。
 
 <p align="center">
   <img width="500px" src="https://cloud.githubusercontent.com/assets/4949982/25573100/ff51181c-2e7c-11e7-8a25-35035a206e51.png">
@@ -75,6 +75,11 @@ Testデータにおいて、MSEの値が途中から上昇する現象が発生�
   <img width="500px" src="https://cloud.githubusercontent.com/assets/4949982/25573116/2cd0a2a8-2e7d-11e7-97b5-04cc4ff96731.png">
 </p>
 <div align="center"> 図6. 上坂すみれさん </div>
+
+<p align="center">
+  <img width="500px" src="https://cloud.githubusercontent.com/assets/4949982/25574056/9047c8ae-2e85-11e7-97ee-ddde8a304cda.png">
+</p>
+<div align="center"> 図7. 清水あいりさん </div>
 
 ## 感想
 　上坂すみれさんのような写真に対して、反応するので大きさはある程度わかっているのかなと言う印象があります。  
