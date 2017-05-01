@@ -104,7 +104,7 @@ $ git clone https://github.com/GINK03/keras-bwh-predictor
 <p align="center">
   <img width="200px" src="https://cloud.githubusercontent.com/assets/4949982/25574599/db48698a-2e8a-11e7-86a4-4e9cce62cc81.png">
 </p>
-　コードなかに、trainMaxという変数があり、学習に使うデータの最大値を決定しているパラメータがあるので、適宜編集してください。
+　コードなかに、trainMaxという変数があり、学習に使うデータの最大値を決定しているパラメータがあるので、適宜編集してください。  
 　 配置が完了したら、学習です。  
   
  ```sh
